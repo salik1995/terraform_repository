@@ -4,7 +4,7 @@ provider "aws" {
   secret_key=var.AWS_SECRET_KEY
 }
 resource "aws_instance" "web" {
-  ami         = "ami-02dc8ad50da58fffd"
+  ami         = "ami-0da62eb5869c785b9"
   intance_type ="t3.micro"
   
   
